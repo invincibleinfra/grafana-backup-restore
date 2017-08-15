@@ -1,0 +1,40 @@
+hash: 5112be84097a8325aa3f1be7dfd78ebd2b5990417bd66624bd25bc3df13ccbfb
+updated: 2017-08-15T12:36:41.90946717-05:00
+imports:
+- name: github.com/aws/aws-sdk-go
+  version: 77c204059e353965728c1898f9755d4970294da0
+  subpackages:
+  - aws
+  - aws/awserr
+  - aws/awsutil
+  - aws/client
+  - aws/client/metadata
+  - aws/corehandlers
+  - aws/credentials
+  - aws/credentials/ec2rolecreds
+  - aws/credentials/endpointcreds
+  - aws/credentials/stscreds
+  - aws/defaults
+  - aws/ec2metadata
+  - aws/endpoints
+  - aws/request
+  - aws/session
+  - aws/signer/v4
+  - internal/shareddefaults
+  - private/protocol
+  - private/protocol/query
+  - private/protocol/query/queryutil
+  - private/protocol/rest
+  - private/protocol/restxml
+  - private/protocol/xml/xmlutil
+  - service/s3
+  - service/s3/s3iface
+  - service/s3/s3manager
+  - service/sts
+- name: github.com/go-ini/ini
+  version: 2e44421e256d82ebbf3d4d4fcabe8930b905eff3
+- name: github.com/jmespath/go-jmespath
+  version: 3433f3ea46d9f8019119e7dd41274e112a2359a9
+- name: gopkg.in/asaskevich/govalidator.v6
+  version: 4918b99a7cb949bb295f3c7bbaf24b577d806e35
+testImports: []
